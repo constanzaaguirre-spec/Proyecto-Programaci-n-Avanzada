@@ -1,7 +1,6 @@
 # Proyecto-Programaci-n-Avanzada
 Repositorio para proyecto de ramo programación avanzada
 
-Para primer Hito: Se pueden ejecutar todas las clases esqueleto de la siguiente forma:
-Definir la inercia y la ganancia para correr: PlantaMotor(Inercia, Ganancia)
-Definir la velocidad medida para correr: Sensor(Velocidad)
-Definir los valores de control proporcional, integral y derivativo para correr: ControladorPID(Control Proporcional, Control Integral, Control Derivativo)
+## Hito 2:
+Para el hito 2, se implemento un sistema deque para almacenar el historial de error para el calculo del control integral y derivativo del controlador PID, además implementa un filtro suavizante mediante función recursiva que recorre el historial.
+Se agregó la clase padre SistemaLazoCerrado que incorpora el motor, sensor y el controlador.
